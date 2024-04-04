@@ -1,10 +1,10 @@
 body {
-    
+
     font-family: 'oswald', sans-serif;
 }
 
 
-h1{
+h1 {
 
     text-shadow: 5px 4px 2px black;
 
@@ -15,21 +15,24 @@ h2 {
     text-shadow: 5px 5px 1px black;
 }
 
-h3,h5 {
+h3,
+h5 {
     text-shadow: 2px 2px 1px black;
 }
 
-
-#headercv {
-    background-image: url(../img/HeaderJero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-
-    filter: saturate(50%);
-    height: 86.5vh;
+.header {
+    display: table;
+    position: relative;
     width: 100%;
+    height: 90vh;
+    background: url(../img/HeaderJero.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    filter: saturate(50%);
 }
+    
 
 #infoexperiencia hr,
 #infoeducacion hr {
@@ -43,4 +46,11 @@ h3,h5 {
     aspect-ratio: 16/9;
     object-fit: "cover";
 
+}
+
+footer{
+    padding: 1px;
+}
+.footerdiv{
+    margin-bottom: 0;
 }
